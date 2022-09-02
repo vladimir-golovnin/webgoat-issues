@@ -12,9 +12,6 @@ The following requirements are violated:
 - Unauthorized access to system data.
 - Facilitating other types of attack.
 
-## Pre-requisites 
-Valid user account. 
-
 ## Steps to Reproduce
 1. Login to the application. Use valid session for the following requests. 
 2. Make GET request to the `WebGoat/SqlInjectionMitigations/servers` endpoint with parameter `column=id`. You will see the list of servers sorted by id: 

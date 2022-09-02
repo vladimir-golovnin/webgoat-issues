@@ -9,9 +9,6 @@ The following requirement is violated: Best Security Practices.
 - Disclosure of sensitive customer information.
 - Denial of service (account).
 
-## Pre-requisites 
-None. 
-
 ## Steps to Reproduce
 GoatRouter.js contains following debug code:
 Line 52: `'test/:param': 'testRoute'`

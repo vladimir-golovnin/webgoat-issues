@@ -10,9 +10,6 @@ The following requirements are violated:
 ## Business Impact
 Unauthorised access to the system.
 
-## Pre-requisites 
-None
-
 ## Steps to Reproduce
 1. Craft an HTML page including the following form:
 ```html

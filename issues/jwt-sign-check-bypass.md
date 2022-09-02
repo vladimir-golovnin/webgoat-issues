@@ -9,9 +9,6 @@ The following requirement is violated:
 ## Business Impact
 Unauthorised access to the system.
 
-## Pre-requisites 
-Valid user account
-
 ## Steps to Reproduce
 1. Do POST request to endpoint `/WebGoat/JWT/votings` with cookie 'access_token' equal to `eyJhbGciOiJub25lIn0.eyJpYXQiOjE2NjI3NDA4MDgsImFkbWluIjoidHJ1ZSIsInVzZXIiOiJUb20ifQ.` and valid session cookie.
 2. Receive successful response meaning that you have purged the voting results.  

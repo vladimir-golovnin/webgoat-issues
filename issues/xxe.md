@@ -9,9 +9,6 @@ The following requirements are violated:
 ## Business Impact
 Unauthorised access to the system.
 
-## Pre-requisites 
-Valid user account. 
-
 ## Steps to Reproduce
 1. Login to the WebGoat application.
 2. Copy session cookie. 
